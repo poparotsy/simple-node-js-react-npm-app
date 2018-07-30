@@ -14,6 +14,11 @@ pipeline {
                 sh 'npm install'
             }
         }
+	stage('Code Scanner') {
+		steps {
+		    echo 'sonarQube code scanner'
+		}
+	}
         stage('Test') {
             steps {
                 sh './jenkins/scripts/test.sh'
