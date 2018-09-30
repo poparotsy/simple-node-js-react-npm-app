@@ -13,4 +13,6 @@ you'll be creating yourself during the tutorial and the `scripts` subdirectory
 contains shell scripts with commands that are executed when Jenkins processes
 the "Test" and "Deliver" stages of your Pipeline.
 
+
+#### Dashboard screenshot
 ![img](https://github.com/poparotsy/simple-node-js-react-npm-app/blob/master/jenkins/nodePipeline.png)
